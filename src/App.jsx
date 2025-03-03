@@ -10,7 +10,7 @@ function App() {
   const [rank, setRank] = useState(1)
   const [percent, setPercent] = useState(1)
   const [score, setScore] = useState(1)
-  const [closePage, setClosePage] = useState(false)
+  const [closePage, setClosePage] = useState(true)
 
   return (
     <div className='relative'>
